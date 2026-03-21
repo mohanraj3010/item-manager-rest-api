@@ -1,0 +1,60 @@
+# ─── Frontend ───────────────────────────
+node_modules
+dist
+dist-ssr
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── Backend ────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/*.pyc
+backend/.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+
+# ─── Database ───────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+```
+
+---
+
+## 📌 Where to Put This File
+
+Make sure `.gitignore` is in the **root** of your project:
+```
+rest-api-project/        ← .gitignore goes HERE
+├── backend/
+│   ├── app.py
+│   ├── venv/            ← will be ignored ✅
+│   └── items.db         ← will be ignored ✅
+└── frontend/
+    ├── node_modules/    ← will be ignored ✅
+    └── src/
