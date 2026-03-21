@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://127.0.0.1:5000";
+const API = "https://itemflix-api.onrender.com";
 const CATEGORIES = ["General", "Electronics", "Clothing", "Food", "Books", "Other"];
 const CATEGORY_COLORS = {
   General:     { bg: "bg-gray-700",   text: "text-gray-200" },
