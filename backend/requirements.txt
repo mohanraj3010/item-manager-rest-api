@@ -4,4 +4,4 @@ flask-cors
 flask-marshmallow
 marshmallow-sqlalchemy
 python-dotenv
-psycopg[binary]
+psycopg2-binary
