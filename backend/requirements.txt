@@ -5,3 +5,4 @@ flask-marshmallow
 marshmallow-sqlalchemy
 python-dotenv
 psycopg2-binary
+gunicorn
