@@ -42,9 +42,8 @@ venv/
 *.db
 *.sqlite
 *.sqlite3
-```
-
----
+*.pdf
+*.docx
 
 ## 📌 Where to Put This File
 
